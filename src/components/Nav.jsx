@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { headerLogo } from '../assets/images';
 import { hamburger } from '../assets/icons';
+import { hamburgerClose } from '../assets/icons';
 import { navLinks } from '../constants';
 const Nav = () => {
   return (
@@ -21,9 +22,6 @@ const Nav = () => {
             </li>
           ))}
         </ul>
-        <div className='hidden max-lg:block'>
-          <img src={hamburger} alt='Hamburger' width={25} height={25} />
-        </div>
       </nav>
     </header>
   );

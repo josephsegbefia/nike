@@ -9,9 +9,11 @@ import {
   Footer,
 } from './sections';
 import Nav from './components/Nav';
+import MobileNav from './components/MobileNav';
 const App = () => {
   return (
     <main className='relative'>
+      <MobileNav />
       <Nav />
       <section className='xl:padding-l wide:padding-r padding-b'>
         <Hero />
